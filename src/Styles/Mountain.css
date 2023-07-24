@@ -1,0 +1,94 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+.mountain {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mountain-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mountain-header h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .mountain-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .mountain-map {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .mountain-map img {
+    max-width: 100%;
+  }
+  
+  .trail-table {
+    text-align: center;
+  }
+  
+  .trail-table h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .trail-table-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+
+  .difficulty-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .green-circle {
+    color: #00cc00; /* Green color for Easy */
+  }
+  
+  .blue-square {
+    color: #007bff; /* Blue color for Intermediate */
+  }
+  
+  .black-diamond {
+    color: #000000; /* Black color for Expert */
+  }

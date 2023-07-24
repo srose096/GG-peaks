@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .home {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .background-image1 {
+    z-index: 2; /* Set a higher z-index for the first background image to appear on top */
+  }
+  
+  .background-image2 {
+    z-index: 1; /* Set a lower z-index for the second background image to appear below */
+  }
+  
+  .view-mountain-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #282c30;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-mountain-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .ski-hill-conditions {
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .ski-hill-conditions h2 {
+    font-size: 24px;
+  }
+  
+  .condition-info {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .skill-levels {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .skill-level {
+    text-align: center;
+  }
+  
+  .skill-level p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .skill-level p:last-child {
+    font-size: 14px;
+  }
